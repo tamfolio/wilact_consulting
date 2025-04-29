@@ -111,4 +111,26 @@ a{
   text-decoration: none!important;
 }
 
+@media (max-width: 639px) {
+  .hero-banner {
+    height: 80vh;
+    background-position: top;
+  }
+}
+
+/* Medium screens (>= 768px) */
+@media (min-width: 640px) {
+  .hero-banner {
+    height: 50vh;
+    background-position: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-banner {
+    height: 100vh;
+    background-position: center;
+  }
+}
+
 

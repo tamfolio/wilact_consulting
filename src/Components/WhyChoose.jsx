@@ -2,9 +2,9 @@ import React from 'react'
 
 function WhyChoose() {
   return (
-    <div className='bg-white lg:py-[130px] relative flex flex-col items-center justify-center'>
+    <div className='bg-white h-auto py-[50px] lg:py-[130px] relative flex flex-col items-center justify-center'>
             <h1 className='font-semibold text-[54px]'>Why Choose Us</h1>
-            <div className='flex gap-[50px] mt-[80px]'>
+            <div className='flex flex-col md:items-center md:justify-center md:flex-row md:flex-wrap gap-[50px] !mt-[80px]'>
                 <div className='w-[350px] h-[300px] border-solid border-[1px] border-[#E9E9E9] flex flex-col items-center justify-center px-[30px]'>
                         <img src="/assets/Product Icons.png" alt="" className='mb-[20px]'/>
                         <p className='text-center text-[24px]'>Proven expertise in integrating cutting-edge technology.</p>

@@ -3,7 +3,7 @@ import React from "react";
 function Values() {
   return (
     <div className="bg-[#1E1E1E] py-[80px] flex flex-col items-center">
-      <h1 className="text-white text-[54px] font-semibold mb-[72px]">
+      <h1 className="text-white text-[54px] font-semibold !mb-[72px]">
         Our Values
       </h1>
       <div className="flex gap-[50px] flex-wrap items-center justify-center">

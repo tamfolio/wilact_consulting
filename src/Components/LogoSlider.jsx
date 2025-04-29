@@ -11,8 +11,8 @@ const logos = [
 
 function ClientLogoSlider() {
   return (
-    <section className="overflow-hidden bg-white py-8">
-      <div className="whitespace-nowrap animate-scroll flex items-center justify-between gap-12 px-4">
+    <section className="bg-white md:py-8">
+      <div className="whitespace-nowrap animate-scroll flex flex-wrap items-center justify-between gap-12 px-4">
         {logos.map((logo, index) => (
           <img
             key={index}

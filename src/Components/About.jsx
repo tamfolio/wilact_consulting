@@ -5,7 +5,7 @@ import Footer from "./Footer";
 function About() {
   return (
     <div>
-      <div className="lg:px-[100px]">
+      <div className="px-[30px] md:px-[50px] lg:px-[100px]">
         <Navbar src="/assets/logo3.png" />
       </div>
       <div className="lg:px-[100px]">
