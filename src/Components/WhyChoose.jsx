@@ -1,0 +1,25 @@
+import React from 'react'
+
+function WhyChoose() {
+  return (
+    <div className='bg-white lg:py-[130px] relative flex flex-col items-center justify-center'>
+            <h1 className='font-semibold text-[54px] mb-[80px]'>Why Choose Us</h1>
+            <div className='flex gap-[50px]'>
+                <div className='w-[350px] h-[300px] border-solid border-[1px] border-[#E9E9E9] flex flex-col items-center justify-center px-[30px]'>
+                        <img src="/assets/Product Icons.png" alt="" className='mb-[20px]'/>
+                        <p className='text-center text-[24px]'>Proven expertise in integrating cutting-edge technology.</p>
+                </div>
+                <div className='w-[350px] h-[300px] border-solid border-[1px] border-[#E9E9E9] flex flex-col items-center justify-center px-[30px]'>
+                        <img src="/assets/Product Icons (1).png" alt="" className='mb-[20px]'/>
+                        <p className='text-center text-[24px]'>A track record of measurable client success stories</p>
+                </div>
+                <div className='w-[350px] h-[300px] border-solid border-[1px] border-[#E9E9E9] flex flex-col items-center justify-center px-[30px]'>
+                        <img src="/assets/Vector (6).png" alt="" className='mb-[20px]'/>
+                        <p className='text-center text-[24px]'>Dedicated focus on AI and sustainability for the future.</p>
+                </div>
+            </div>
+    </div>
+  )
+}
+
+export default WhyChoose

@@ -1,0 +1,110 @@
+body {
+  font-family: 'Outfit', sans-serif;
+}
+
+.hero-banner {
+  position: relative;
+  background-image: url('/assets/hero-banner.jpg');
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 50, 0.3); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+/* Then make sure your text inside hero-banner is above the overlay */
+.hero-banner > * {
+  position: relative;
+  z-index: 2;
+}
+
+.faq-row .icon-wrapper {
+  display: none !important;
+}
+
+
+.clients-banner{
+  position: relative;
+  background-image: url('/assets/access-hq.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  max-width: 100%;
+  width: 1064px;
+
+}
+
+.clients-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 50, 50, 0.3); /* Black overlay with 50% opacity */
+  z-index: 1;
+}
+
+.clients-banner > * {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes scrollLogos {
+  0% {
+    transform: translateX(0); /* Start at the beginning */
+  }
+  100% {
+    transform: translateX(-100%); /* End at the complete width of the logos container */
+  }
+}
+
+/* Apply the animation to the logos container */
+.scroll-container {
+  display: flex;
+  gap: 12px;
+  white-space: nowrap;
+  animation: scrollLogos 5s linear infinite; /* Adjust 30s to control speed */
+  overflow: hidden;
+}
+
+.scroll-container img {
+  height: 3rem; /* Adjust the size of the logos */
+  display: inline-block;
+}
+
+.custom-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  outline: none;
+}
+
+.custom-input::placeholder {
+  color: #ccc;
+}
+
+.custom-input:focus {
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  box-shadow: none;
+  background: transparent;
+  color: white;
+}
+
+
