@@ -24,7 +24,7 @@ function Navbar({ src }) {
         <span className="text-white text-[16px] font-medium">Contact Us</span>
       </div>
       <div className="block md:hidden">
-      <GiHamburgerMenu size={32} fill="white"/>
+      <GiHamburgerMenu size={32} fill="#FFCC00"/>
       </div>
     </div>
   );

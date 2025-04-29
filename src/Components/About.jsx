@@ -9,7 +9,7 @@ function About() {
         <Navbar src="/assets/logo3.png" />
       </div>
       <div className="lg:px-[100px]">
-        <h1 className="!my-[60px] lg:w-[777px]">
+        <h1 className="!my-[60px] lg:w-[777px] text-center md:!text-left">
           Transforming Organizations through AI, Innovative Solutions, and
           Sustainable Practices.
         </h1>
@@ -17,18 +17,18 @@ function About() {
       </div>
       <div className="flex flex-col items-center">
         <h1 className="text-[54px] font-semibold">Our Team</h1>
-        <span className="text-[24px] font-light text-[#585858] mb-[36px]">
+        <span className="text-[24px] font-light text-[#585858] mb-[36px] text-center md:!text-left">
           Empowering organizations to thrive by harnessing the transformative
           power of AI, we
         </span>
-        <div className="flex gap-[24px] mb-[110px]">
+        <div className="flex flex-col md:flex-row gap-[24px] mb-[110px]">
           <img src="/assets/female.png" alt="" />
           <img src="/assets/male.png" alt="" />
         </div>
       </div>
-      <div className="bg-[#1E1E1E] pt-[110px] pb-[40px] border-b-1 border-[#FFFFFF80]">
-        <div className="flex px-[104px] gap-[103px]">
-          <div className="w-[780px]">
+      <div className="bg-[#1E1E1E] py-[50px] md:pt-[110px] md:pb-[40px] border-b-1 border-[#FFFFFF80]">
+        <div className="flex flex-col-reverse md:flex-row px-[20px] md:px-[104px] md:gap-[103px]">
+          <div className="w-full md:w-[780px]">
             <h1 className="text-white text-[54px] font-medium mb-[29px]">
               Our Vision
             </h1>
@@ -48,13 +48,13 @@ function About() {
             className="w-[280px] h-[280px]"
           />
         </div>
-        <div className="flex px-[104px] gap-[103px] mt-[100px]">
+        <div className="flex flex-col md:flex-row px-[20px] md:px-[104px] md:gap-[103px] mt-[100px]">
           <img
             src="/assets/mission.png"
             alt=""
             className="w-[280px] h-[280px]"
           />
-          <div className="w-[780px]">
+          <div className="w-full md:w-[780px]">
             <h1 className="text-white text-[54px] font-medium mb-[29px]">
               Our Mission
             </h1>
