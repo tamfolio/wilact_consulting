@@ -4,7 +4,7 @@ import ClientLogoSlider from "./LogoSlider";
 function Clients() {
   return (
     <div className="bg-white pb-[50px]">
-      <div className="bg-[#F7F7F7] flex flex-col items-center justify-center mb-[120px] pb-[66px]">
+      <div className="bg-[#F7F7F7] flex flex-col items-center justify-center mb-[120px] py  -[66px]">
         <h1 className="font-semibold text-[54px] mb-[30px] mt-[67px]">
           Our Clients
         </h1>

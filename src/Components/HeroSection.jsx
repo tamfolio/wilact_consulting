@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 function HeroSection() {
   return (
     <div className="hero-banner flex flex-col items-start justify-start w-full lg:px-[100px]">
-      <Navbar />
+      <Navbar src="/assets/logo2.png"/>
       <div className="h-[90vh] flex flex-col items-start justify-center">
         <h1 className="text-white lg:text-[64px] font-medium leading-[60px] lg:w-[745px] mb-[30px]">
           Empowering Businesses with AI, Innovation, and Sustainable Strategies.
