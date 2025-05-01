@@ -126,6 +126,9 @@ function Footer() {
           <FaXTwitter className="text-white" />
         </div>
       </div>
+      <div className="flex items-center justify-center mt-5 text-white">
+        <p>&copy; Wilact {new Date().getFullYear()}</p>
+      </div>
     </div>
   );
 }
