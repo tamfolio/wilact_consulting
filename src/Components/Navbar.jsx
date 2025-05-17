@@ -3,11 +3,12 @@ import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Offcanvas, OffcanvasBody, OffcanvasHeader } from "reactstrap";
 
-function Navbar({ src }) {
+function Navbar({ src,textColor }) {
   const [showSidebar, setShowSidebar] = useState(false);
 
   const toggleSidebar = () => setShowSidebar(!showSidebar);
 
+  const menuTextClass = `font-semibold text-${textColor} text-[16px]`;
   return (
     <div className="w-full py-3 flex items-center justify-between">
       <Link to="/">
@@ -18,19 +19,19 @@ function Navbar({ src }) {
       <div className="hidden md:flex gap-[30px]">
         <Link
           to="/about-us"
-          className="no-underline font-semibold text-black text-[16px]"
+          className={menuTextClass}
         >
           About Us
         </Link>
-        <span className="font-semibold text-black text-[16px]">
+        <span className={menuTextClass}>
           Core Services
         </span>
-        <span className="font-semibold text-black text-[16px]">Our Values</span>
-        <span className="font-semibold text-black text-[16px]">Clients</span>
+        <span className={menuTextClass}>Our Values</span>
+        <span className={menuTextClass}>Clients</span>
       </div>
 
       {/* Desktop Button */}
-      <div className="bg-[#FFCC00] py-[15px] px-[30px] rounded-[30px] hidden md:block">
+      <div className="bg-[#0B8E53] py-[15px] px-[30px] rounded-[30px] hidden md:block">
         <span className="text-white text-[16px] font-medium">Contact Us</span>
       </div>
 
@@ -65,7 +66,7 @@ function Navbar({ src }) {
           <span className="font-semibold text-black">Core Services</span>
           <span className="font-semibold text-black">Our Values</span>
           <span className="font-semibold text-black">Clients</span>
-          <div className="bg-[#FFCC00] py-[15px] px-[30px] rounded-[30px] flex items-center justify-center">
+          <div className="bg-[#FFCC00] py-[15px] px-[30px] rounded-[30px] flex items-center jus">
             <span className="text-white text-[16px] font-medium">
               Contact Us
             </span>

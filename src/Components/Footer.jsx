@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
     <div className="bg-[#1E1E1E] pt-[100px] pb-[30px]">
-      <div className="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:gap-[200px]">
+      {/* <div className="flex flex-col lg:flex-row lg:items-start items-center justify-center lg:gap-[200px]">
         <h1 className="text-[54px] text-white font-medium">
           LET'S WORK TOGETHER!
         </h1>
@@ -89,10 +89,10 @@ function Footer() {
             </div>
           </div>
         </div>
-      </div>
+      </div> 
       <div className="flex items-center justify-center mb-[50px]">
         <div className="w-[85%] h-[1px] bg-[#5E5E5E80]"></div>
-      </div>
+      </div> */}
       <div className="flex flex-col lg:flex-row items-start justify-between px-[30px] lg:px-[100px]">
         <div className="w-full flex flex-col items-center lg:items-start">
           <img src="/assets/logo2.png" alt="" className="w-[55px] mb-[30px]" />

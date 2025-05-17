@@ -4,13 +4,53 @@ body {
 
 .hero-banner {
   position: relative;
-  background-image: url('/assets/hero-banner.webp');
+  background-image: url('/assets/hero_banner.png');
   width: 100%;
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+}
+
+.core1{
+  background-image: url('/assets/core1.jpg');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.core2{
+  background-image: url('/assets/core2.jpg');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.core3{
+  background-image: url('/assets/core3.jpg');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.core4{
+  background-image: url('/assets/core4.jpg');
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .hero-banner::after {
