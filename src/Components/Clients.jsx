@@ -28,7 +28,7 @@ function Clients() {
       </div>
       <ClientLogoSlider/> */}
 
-      <div className="flex flex-wrap items-center justify-center gap-[100px] lg:px-[280px]">
+      <div className="flex flex-col lg:flex-row lg:flex-wrap items-center justify-center gap-[100px] lg:px-[280px]">
         {logos.map((logo, index) => (
           <img
             key={index}

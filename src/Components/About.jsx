@@ -12,19 +12,19 @@ function About() {
         <h1 className="!mt-[60px] lg:w-[777px] text-center md:!text-left">
           About Us
         </h1>
-        <p className="!mb-[60px]">
+        <p className="!mb-[60px] text-center md:text-left">
           Transforming Organizations through AI, Innovative Solutions, and
           Sustainable Practices.
         </p>
-        <div className="flex flex-col lg:flex-row gap-[100px]">
+        <div className="flex flex-col lg:flex-row lg:gap-[100px] px-[20px] lg:px-0">
           <img
             src="/assets/about1.png"
             alt=""
             className="lg:w-1/2 w-full mb-[80px] rounded-xl"
           />
           <div className="flex flex-col items-start justify-start w-full lg:w-1/2">
-            <div className="flex items-center justify-center gap-3 mb-5">
-              <h1 className="!text-[40px] !font-bold">Our Story</h1>
+            <div className="flex items-center justify-center gap-3 mb-2 lg:mb-5">
+              <h1 className="lg:!text-[40px] text-md !font-bold">Our Story</h1>
               <img
                 src="/assets/down-arrow.png"
                 alt=""
@@ -51,13 +51,9 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center mt-5">
         <h1 className="text-[54px] font-semibold">Our Team</h1>
-        <span className="text-[24px] font-light text-[#585858] mb-[36px] text-center md:!text-left">
-          Empowering organizations to thrive by harnessing the transformative
-          power of AI, we
-        </span>
-        <div className="flex flex-col md:flex-row gap-[24px] mb-[110px]">
+        <div className="flex flex-col md:flex-row gap-[24px] lg:mb-[110px] px-[10px] lg:px-0">
           <div>
             <img src="/assets/about2.png" alt="" />
             <p className="text-[20px] font-semibold text-[#808080] mt-3 mb-0">
@@ -77,6 +73,15 @@ function About() {
             </span>
           </div>
         </div>
+      </div>
+      <div className="about-banner flex flex-col items-center justify-center px-3">
+        <h1 className="text-md lg:!text-[48px] lg:w-[695px] text-center !mb-8">Ready to unlock the power of AI for your business?</h1>
+        <p className="text-[#1A1A1A] text-[16px] !mb-8 lg:w-[695px] text-center"> Partner with us to identify opportunities, streamline operations, and build intelligent solutions tailored to your goals.</p>
+        <div className="bg-[#0B8E53] py-[15px] px-[30px] rounded-[30px] flex items-center jus">
+            <span className="text-white text-[16px] font-medium">
+              Get in Touch
+            </span>
+          </div>
       </div>
       {/* <div className="bg-[#1E1E1E] py-[50px] md:pt-[110px] md:pb-[40px] border-b-1 border-[#FFFFFF80]">
         <div className="flex flex-col-reverse md:flex-row px-[20px] md:px-[104px] md:gap-[103px]">

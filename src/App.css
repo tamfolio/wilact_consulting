@@ -103,6 +103,14 @@ body {
   z-index: 2;
 }
 
+.about-banner{
+  background-image: url('/assets/about-banner.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
 @keyframes scrollLogos {
   0% {
     transform: translateX(0); /* Start at the beginning */
