@@ -2,7 +2,7 @@ import React from "react";
 
 function WhyChoose() {
   return (
-    <div className="bg-white h-auto py-[50px] lg:py-[130px] relative flex flex-col items-center justify-center px-[20px]">
+    <div className="bg-white w-full h-auto py-[50px] lg:py-[130px] relative flex flex-col items-center justify-center px-[20px]">
       <h1 className="font-semibold text-[54px] !mb-[70px]">Why Choose Us</h1>
       {/* <div className='flex flex-col md:items-center md:justify-center md:flex-row md:flex-wrap gap-[50px] !mt-[80px]'>
                 <div className='w-[350px] h-[300px] border-solid border-[1px] border-[#E9E9E9] flex flex-col items-center justify-center px-[30px]'>
@@ -18,7 +18,7 @@ function WhyChoose() {
                         <p className='text-center text-[24px]'>Dedicated focus on AI and sustainability for the future.</p>
                 </div>
             </div> */}
-      <div className="w-full flex flex-col lg:flex-row gap-[25px] items-start">
+      <div className="w-full flex flex-col lg:flex-row gap-[25px] items-start justify-center">
         <div>
           <img src="/assets/choose1.png" alt="" className="max-w-full"/>
           <p className="text-[24px] lg:w-[467px] !mt-[20px]">

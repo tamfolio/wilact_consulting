@@ -53,7 +53,7 @@ function WhoWeAre() {
           </div>
         </div>
       </div>
-      <img src="/assets/atlas.png" alt="" className="w-full h-[100px]"/>
+      <img src="/assets/atlas.png" alt="" className="w-full h-[100px] lg:h-[300px]"/>
     </>
   );
 }
