@@ -97,10 +97,10 @@ function Footer() {
         <div className="w-full flex flex-col items-center lg:items-start">
           <img src="/assets/logo2.png" alt="" className="w-[55px] mb-[30px]" />
           <span className="text-[#FFCC00] underline mb-[10px]">
-            +23481770420561
+            +2348170420561
           </span>
           <span className="text-white w-[330px] text-center lg:!text-left">
-            Address: Block 4, LSDPC Estate, Ebute-Metta, Lagos, Nigeria.
+            Address: 2nd Avenue, Prince Ademola Eletu,Lagos
           </span>
         </div>
         <div className="w-full flex flex-col md:flex-row text-white font-light gap-[30px] md:gap-[70px] items-center justify-start md:items-start md:justify-center lg:items-start  lg:justify-start mt-[40px] md:mt-[40px] lg:mt-0 mb-[40px] lg:mb-0">

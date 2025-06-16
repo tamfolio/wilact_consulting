@@ -32,21 +32,18 @@ function About() {
               />
             </div>
             <p className="leading-[27px] tracking-normal text-[16px]">
-              Lorem ipsum dolor sit amet consectetur. Aliquet scelerisque mattis
-              orci interdum. Vestibulum maecenas urna mauris erat venenatis
-              egestas et libero a. Lorem ut et massa ut varius ipsum. Enim
-              mauris diam risus sit. Venenatis turpis suscipit tortor diam. Amet
-              vestibulum nisi sed placerat convallis pulvinar sed faucibus diam.
-              Habitant nunc ut auctor id urna posuere id. Sit enim duis donec
-              leo fringilla semper sollicitudin. Ipsum blandit ut orci nec
-              nullam. Venenatis ultrices sit aliquam semper duis. Erat commodo
-              feugiat condimentum tellus aliquam nunc ultricies. Purus diam
-              tristique pharetra amet facilisis nunc sed. Vitae ultrices amet
-              tincidunt arcu et. Tincidunt elit cras quam facilisi cras
-              vestibulum scelerisque ultrices. Ultrices sit urna ipsum nunc
-              suscipit gravida. In viverra proin rhoncus purus risus. Eget sit
-              id condimentum et hendrerit dictumst. Integer ornare facilisis
-              dolor id eget vel arcu. Diam sit{" "}
+              WilAct is a modern consulting firm built for problem-solvers,
+              builders, and ambitious institutions across Africa. We combine
+              strategy, product thinking, and technology to move bold ideas from
+              paper to platform. Our work cuts across industries - finance,
+              climate, education, governance, digital infrastructure, wherever
+              there is a need for systems that work and scale. We deploy AI,
+              data architecture, APIs, and automation tools to build products,
+              platforms, and frameworks that drive real outcomes. From setting
+              up technology ecosystems or AI labs, to powering fintech, policy
+              systems, and digital public goods, we don't just advise, we
+              design, execute, and ship. At WilAct, the real edge lies in
+              clarity of thought, speed of action, and building what matters.
             </p>
           </div>
         </div>
@@ -75,13 +72,19 @@ function About() {
         </div>
       </div>
       <div className="about-banner flex flex-col items-center justify-center px-3">
-        <h1 className="text-md lg:!text-[48px] lg:w-[695px] text-center !mb-8">Ready to unlock the power of AI for your business?</h1>
-        <p className="text-[#1A1A1A] text-[16px] !mb-8 lg:w-[695px] text-center"> Partner with us to identify opportunities, streamline operations, and build intelligent solutions tailored to your goals.</p>
+        <h1 className="text-md lg:!text-[48px] lg:w-[695px] text-center !mb-8">
+          Ready to unlock the power of AI for your business?
+        </h1>
+        <p className="text-[#1A1A1A] text-[16px] !mb-8 lg:w-[695px] text-center">
+          {" "}
+          Partner with us to identify opportunities, streamline operations, and
+          build intelligent solutions tailored to your goals.
+        </p>
         <div className="bg-[#0B8E53] py-[15px] px-[30px] rounded-[30px] flex items-center jus">
-            <span className="text-white text-[16px] font-medium">
-              Get in Touch
-            </span>
-          </div>
+          <span className="text-white text-[16px] font-medium">
+            Get in Touch
+          </span>
+        </div>
       </div>
       {/* <div className="bg-[#1E1E1E] py-[50px] md:pt-[110px] md:pb-[40px] border-b-1 border-[#FFFFFF80]">
         <div className="flex flex-col-reverse md:flex-row px-[20px] md:px-[104px] md:gap-[103px]">
