@@ -4,7 +4,7 @@ body {
 
 .hero-banner {
   position: relative;
-  background-image: url('/assets/hero_banner.png');
+  background-image: url('https://res.cloudinary.com/dnovlrekd/image/upload/v1748584866/hero_banner_xzfdyg.webp');
   width: 100%;
   height: 100vh;
   background-position: center;
